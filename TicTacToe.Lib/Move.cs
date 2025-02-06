@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TicTacToe.Lib
+{
+    public class Move
+    {
+        public Cell Cell { get; set; }
+        public Player Player { get; set; }
+    }
+}
